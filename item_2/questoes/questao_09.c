@@ -13,7 +13,7 @@ int main() {
     altmaior = alturas;
     altmenor = alturas;
 
-    for(int i = 0; i < 2; i++) {
+    for(int i = 0; i < 14; i++) {
         printf("informe sua altura em metros: \n");
         scanf("%f", &alturas);
 
@@ -25,7 +25,7 @@ int main() {
 
     }
 
-    //printf("\nmaior altura: %.2f", altmaior);
+    printf("\nmaior altura: %.2f", altmaior);
     printf("\nmenor altura: %.2f", altmenor);
 
     return 0;
