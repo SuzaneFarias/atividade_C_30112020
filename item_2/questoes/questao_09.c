@@ -16,7 +16,7 @@ int main() {
     for(int i = 0; i < 14; i++) {
         printf("informe sua altura em metros: \n");
         scanf("%f", &alturas);
-
+ 
         if (alturas > altmaior) {
             altmaior = alturas;
         } else if (alturas < altmenor) {
