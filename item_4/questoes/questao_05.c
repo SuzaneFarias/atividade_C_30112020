@@ -5,11 +5,11 @@
 #include <stdio.h>
 
 int main() {
-    float medias[10], notas[4];
+    float medias[3], notas[4], somanotas = 0;
     // float nota1 = 0, nota2 = 0, nota3 = 0, nota4 = 0;
-    int i, w, alunos_aprovados = 0;
+    int i, w, x, alunos_aprovados = 0;
 
-    for(i = 0; i < 10; i++) {
+    for(i = 0; i < 3; i++) {
         printf("\nAluno %d\n", (i + 1));
         for(w = 0; w < 4; w++){ 
             printf("nota %d: ", w + 1);
