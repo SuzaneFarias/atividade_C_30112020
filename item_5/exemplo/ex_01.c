@@ -17,7 +17,7 @@ int main() {
         } /*fim do for*/
     } /*fim do for*/
 
-    printf("Soma: %.2f", det);
+    printf("Determinante: %.2f", det);
 
     return 0;
 }
