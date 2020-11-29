@@ -4,13 +4,13 @@
 #include <stdio.h>
 
 int main() {
-    int num = 0, cont = 0, soma = 0, media = 0;
+    float num = 0, cont = 0, soma = 0, media = 0;
 
     printf("entre com numeros positivos");
 
     do {
         printf("\nnumero: ");
-        scanf("%d", &num);
+        scanf("%f", &num);
         if (num > 0) {
             cont++;
             soma += num;
@@ -19,7 +19,7 @@ int main() {
 
     media = soma / cont;
 
-    printf("%d", media);
+    printf("%.2f", media);
   
 
 
