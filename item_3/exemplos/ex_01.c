@@ -11,9 +11,7 @@ int main (){
     strcat(nome, sobrenome);
     strcpy(nomeCompleto, nome);
     puts(nomeCompleto);
-
-    return(0);
-
+    
     system("pause");
-
+    return(0);
 }
